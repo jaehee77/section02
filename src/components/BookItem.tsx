@@ -2,6 +2,7 @@ import React from "react";
 import type { BookData } from "@/types";
 import Link from "next/link";
 import style from "./BookItem.module.css";
+import Image from "next/image";
 
 export default function BookItem({
   id,
